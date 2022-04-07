@@ -1,6 +1,6 @@
 /**
  @Trabalho 1
- @author LucasHartmann 22103098 and Bruno Gallina
+ @author LucasHartmann 
  */
 
 import java.time.LocalTime;
