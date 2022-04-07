@@ -1,6 +1,6 @@
 /**
  @Trabalho 1
- @author LucasHartmann 
+ @author LucasHartmann 22103098 and Bruno Gallina
  */
 
 import java.time.LocalTime;
@@ -31,25 +31,27 @@ public class LucasBruno{
         System.out.println("Que dia você nasceu? (Digite usando números)");
 
         int dia = input.nextInt();
-        if (dia<=31){System.out.println("Que mês você nasceu? (Digite usando números)");}
+        if (dia <= 31 && dia > 0){System.out.println("Que mês você nasceu? (Digite usando números)");}
 
         int mes = input.nextInt();
 
-        if (mes<=12){System.out.println("Que ano você nasceu?(Digite usando números)");}
+        if (mes<=12 && mes > 0){System.out.println("Que ano você nasceu?(Digite usando números)");}
 
         int ano = input.nextInt();
+
 
         if (ano>=1900){System.out.println("Em que horário você nasceu? (Digite usando números)");}
 
         String horario = input.nextLine();
         horario = input.nextLine();
 
-        int number = Integer.parseInt(horario);
         LocalDate currentDate = LocalDate.now();
+        LocalTime currentTime = LocalTime.now();
+
+        int number = Integer.parseInt(horario);
         int date = currentDate.getDayOfMonth();
         int month = currentDate.getMonthValue();
         int year = currentDate.getYear();
-        LocalTime currentTime = LocalTime.now();
         int hour = currentTime.getHour();
         int minute = currentTime.getMinute();
 
@@ -65,8 +67,7 @@ public class LucasBruno{
          Exibir dados obtidos
          */
 
-        System.out.println("\nVocê nasceu em " + dia + "/" + mes + "/" + ano
-                + " na hora " + horario + "\n" + "Você tem " + idadeEmAnos + " anos");
+        System.out.println("\nVocê nasceu em " + dia + "/" + mes + "/" + ano + " na hora " + horario + "\n" + "Você tem " + idadeEmAnos + " anos");
 
 
 
@@ -77,8 +78,7 @@ public class LucasBruno{
         System.out.println("\nVocê ja viveu: " + idadeEmAnos + " anos");
 
         int idadeEmMeses;
-        idadeEmMeses = 11 - mes + idadeEmAnos * 12;
-        if (month < mes){idadeEmMeses = 11 - mes + idadeEmAnos * 12 + month;}
+        idadeEmMeses = idadeEmAnos * 12 ;
         System.out.println("Você ja viveu: " + idadeEmMeses + " meses");
 
         int idadeEmDias;
@@ -129,7 +129,6 @@ public class LucasBruno{
         if (dia == dia && mes == month){
             System.out.println("PARABÉNS!!! Você está de aniversário hoje!!!");
         } else if (month > mes) {
-            // if else para ver quando vai ser o aniversario ou quando foi o aniversario
             System.out.println("Infelizmente hoje não é seu aniversário, seu aniversário foi dia "+dia+"/"+mes); // variavel com dia do aniversaio
             System.out.println("Seu aniversário será daqui a "+calcMes+" mês(es) e "+calcDias+" dias.");
         } else {
@@ -138,12 +137,11 @@ public class LucasBruno{
 
 
     }
-
     public static void nascimento(){
         Scanner input = new Scanner(System.in);
-        System.out.println("\nVocê entrou em descobrir o dia da semana que a pessoa nasceu.\n");
+            System.out.println("\nVocê entrou em descobrir o dia da semana que a pessoa nasceu.\n");
 
-        System.out.println("Que dia você nasceu? (Digite usando números)");
+            System.out.println("Que dia você nasceu? (Digite usando números)");
 
         int dia = input.nextInt();
         if (dia<=31){System.out.println("Que mês você nasceu? (Digite usando números)");}
@@ -162,13 +160,11 @@ public class LucasBruno{
 
         int bissexto = a%4;
 
-        /** A sora disse: As 3 condições para um determinado ano ser bissexto são:
-         1. O ano é divisível por quatro, sem deixar resto;
+        int bissextoo = a%100;
 
-         Então eu fiz: int bissexto = a%4; (a int bissexto vai me dar o resto da divisão da int A por quatro.)
-         O if quer dizer que caso o resto da divisao da "int a" por 4 seja igual a 0 (ou seja, a divisao nao deixe resto), o B vai ser B-1. A int B é a/4, vai adicionar -1 quando o ano for bissexto */
+        int bissextooo = a%400;
 
-        if (bissexto==0){b = a/4 - 1;}
+        if (bissexto == 0 && bissextooo == 0 && bissextoo > 0){b = a/4 - 1;}
 
         if (mes==1){c = 0;}
         if (mes==2){c = 3;}
@@ -195,7 +191,7 @@ public class LucasBruno{
         if(f == 5){System.out.println("\nVocê nasceu em um: Sábado");}
         if(f == 6){System.out.println("\nVocê nasceu em um: Domingo");}
 
-    }
+}
 
     public static void sair(){
         System.out.println("\nVocê escolheu sair do programa");
