@@ -1,6 +1,6 @@
 /**
  @Trabalho 1
- @author: LucasHartmann, matricula: 22103098 and Bruno Gallina, matricula: 22106133
+ @author: LucasHartmann and Bruno Gallina
  */
 
 import java.time.LocalTime; // Importa o horário local da máquina
