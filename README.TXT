@@ -5,7 +5,7 @@
   -Parte um do projeto: Descobrir quantos dias, horas e minutos que você já viveu considerando a data da
   consulta. 
   -Parte dois do projeto: Descobrir se a pessoa esta de aniversário no dia que usou seu programa. 
-  -Parte três do projeto: Descobrir o dia da semana que a pessoa nasceu usando as seguintes dicas:
+  -Parte três do projeto: Descobrir o dia da semana que a pessoa nasceu.
 
   VERSÃO ou DATA: 
   -Versão 1. Ultima atualização em 17/04/2022
