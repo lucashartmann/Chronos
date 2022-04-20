@@ -1,15 +1,17 @@
 #BlueJ class context
 comment0.target=LucasBruno
-comment1.params=
-comment1.target=void\ menu()
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
 comment2.params=
-comment2.target=void\ calculoidade()
+comment2.target=void\ menu()
 comment3.params=
-comment3.target=void\ aniversario()
+comment3.target=int\ menuOption()
 comment4.params=
-comment4.target=void\ nascimento()
+comment4.target=void\ calculoIdade()
 comment5.params=
-comment5.target=void\ sair()
-comment6.params=args
-comment6.target=void\ main(java.lang.String[])
-numComments=7
+comment5.target=void\ aniversario()
+comment6.params=
+comment6.target=void\ nascimento()
+comment7.params=
+comment7.target=void\ sair()
+numComments=8
