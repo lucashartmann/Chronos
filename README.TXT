@@ -15,8 +15,8 @@
   -Após isso a pessoa deve ler o menu e digitar no teclado o numero da função que quer realizar.
 
   AUTORES: 
-  -Lucas Augusto Hartmann, matricula: 22103098 
-  -Bruno Gallina, matricula: 22106133
+  -Lucas Augusto Hartmann
+  -Bruno Gallina
 
   INSTRUÇÕES PARA O USUÁRIO: 
   -Digitar as datas usando números e não palavras. 
