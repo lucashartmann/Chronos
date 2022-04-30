@@ -5,7 +5,7 @@
   -Parte um do projeto: Descobrir quantos dias, horas e minutos que você já viveu considerando a data da
   consulta. 
   -Parte dois do projeto: Descobrir se a pessoa esta de aniversário no dia que usou seu programa. 
-  -Parte três do projeto: Descobrir o dia da semana que a pessoa nasceu.
+  -Parte três do projeto: Descobrir o dia da semana que a pessoa nasceu usando as seguintes dicas:
 
   VERSÃO ou DATA: 
   -Versão 1. Ultima atualização em 17/04/2022
@@ -15,8 +15,8 @@
   -Após isso a pessoa deve ler o menu e digitar no teclado o numero da função que quer realizar.
 
   AUTORES: 
-  -Lucas Augusto Hartmann
-  -Bruno Gallina
+  -Lucas Augusto Hartmann, matricula: 22103098 
+  -Bruno Gallina, matricula: 22106133
 
   INSTRUÇÕES PARA O USUÁRIO: 
   -Digitar as datas usando números e não palavras. 
