@@ -1,13 +1,13 @@
 /**
- @Trabalho 1
- @author: LucasHartmann and Bruno Gallina
+ @JavaCalculator
+ @author: LucasHartmann 
  */
 
 import java.time.LocalTime; // Importa o horário local da máquina
 import java.util.Scanner; // Importa teclado para input do usuário
 import java.time.LocalDate; // Importa o dia local da máquina
 
-public class LucasBruno {
+public class JavaCalculator {
 
 
     public static void main(String[] args){
